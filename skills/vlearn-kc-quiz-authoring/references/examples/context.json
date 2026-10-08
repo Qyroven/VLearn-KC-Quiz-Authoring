@@ -1,0 +1,26 @@
+{
+  "schema_version": "authoring-context.v1",
+  "request": {
+    "purpose": "inline_check",
+    "free_text": "Synthetic technical example: vừa học xong phép cộng; kiểm nhanh một câu.",
+    "unit_ids": ["unit-addition"],
+    "available_kc_ids": ["kc1"],
+    "excluded_kc_ids": [],
+    "question_count": 1,
+    "assumptions": []
+  },
+  "units": [{
+    "unit_id": "unit-addition",
+    "title": "Phép cộng cơ bản — synthetic",
+    "goal": "Cộng hai số nguyên nhỏ trong ví dụ kỹ thuật",
+    "kc_ids": ["kc1"],
+    "prerequisite_kc_ids": [],
+    "source_windows": [],
+    "blueprint_module_ids": ["g1"]
+  }],
+  "question_annotations": [
+    {"question_id": "q1", "unit_ids": ["unit-addition"], "requires_kc_ids": []},
+    {"question_id": "q2", "unit_ids": ["unit-addition"], "requires_kc_ids": []}
+  ],
+  "open_source_gaps": []
+}

@@ -2,6 +2,8 @@
 
 Skill mới dành cho biên soạn học liệu import VLearn. Đầu ra một Day là ZIP gồm **`kc.json` + `quiz.json`**, mỗi file có VI/EN; Extraction, PDF và báo cáo ở ngoài ZIP. Không thay thế hoặc ghi đè skill `learning-authoring-pipeline` cũ.
 
+Rebuild gồm phục hồi nguồn, learning units nhỏ, quiz theo context đang học và review học thuật. Xem [audit bản cũ](docs/legacy-audit.md) và [thiết kế rebuild](docs/rebuild-design.md). Các instructions và context checker đã được triển khai; pilot học liệu Phase 2 thật và preview VLearn còn cần thực hiện.
+
 ## Dùng
 
 Đọc [SKILL.md](skills/vlearn-kc-quiz-authoring/SKILL.md), [contract](skills/vlearn-kc-quiz-authoring/references/contract.md), rồi soạn trực tiếp payload native. Python 3.10+; packager dùng standard library, không cần API key.
@@ -12,6 +14,16 @@ python3 skills/vlearn-kc-quiz-authoring/scripts/package_day.py \
   --out /path/to/new-delivery-directory
 python3 -m unittest discover -s tests -v
 ```
+
+Tạo plan câu theo đoạn học (không thay bank):
+
+```sh
+python3 skills/vlearn-kc-quiz-authoring/scripts/context_plan.py \
+  --kc /path/to/day/kc.json --quiz /path/to/day/quiz.json \
+  --context /path/to/day/authoring-context.json
+```
+
+Agent nhận context tự nhiên rồi chuẩn hóa theo [context contract](skills/vlearn-kc-quiz-authoring/references/context.md); không bắt giảng viên nhập JSON. Script chỉ kiểm phạm vi đã khai báo, trả candidate IDs và shortage; agent chọn/sinh câu và kiểm chất lượng riêng.
 
 Không có `--out` thì chỉ kiểm. Có thể thêm `--target /path/to/target-evidence.json` để kiểm mapping theo evidence đã đọc. Thư mục output mới chứa `package.zip` và `validation-report.json`; script không ghi đè output có sẵn.
 
