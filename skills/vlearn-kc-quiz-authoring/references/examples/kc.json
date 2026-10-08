@@ -1,0 +1,96 @@
+{
+  "schema_version": "kc-quiz-kc.v2",
+  "day": "day01",
+  "package": {
+    "package_id": "day01-synthetic-pair-r1",
+    "course_key": "ai20k",
+    "curriculum_identity": {
+      "intake": "K04",
+      "level": "L34",
+      "phase": 2,
+      "track": 1,
+      "source_day": "day01",
+      "learning_day_number": 1
+    },
+    "materials": [],
+    "traceability": {
+      "source_mappings": [],
+      "unbundled_source_refs": []
+    },
+    "revisions": {
+      "kc": {
+        "revision": 1
+      },
+      "quiz": {
+        "revision": 1
+      }
+    },
+    "curriculum_decisions": {
+      "is_core": {
+        "status": "required",
+        "mapped_kcs": 0,
+        "total_kcs": 1
+      },
+      "placement": {
+        "status": "unplaced",
+        "mapped_slots": 0,
+        "total_slots": 1
+      }
+    },
+    "review": {
+      "status": "synthetic_technical_fixture_not_academic_approval"
+    }
+  },
+  "localizations": {
+    "vi": {
+      "schema_version": "knowledge-components.day.v2",
+      "day": "day01",
+      "language": "vi",
+      "groups": [
+        {
+          "group_id": "g1",
+          "name": "Phép cộng cơ bản",
+          "leaf_kc_ids": [
+            "kc1"
+          ]
+        }
+      ],
+      "leaf_kcs": [
+        {
+          "kc_id": "kc1",
+          "group_id": "g1",
+          "name": "Phép cộng cơ bản",
+          "knowledge": "2 + 2 = 4",
+          "observable_claim": "Tính tổng hai số nguyên nhỏ.",
+          "source_refs": []
+        }
+      ],
+      "integrated_activities": []
+    },
+    "en": {
+      "schema_version": "knowledge-components.day.v2",
+      "day": "day01",
+      "language": "en",
+      "groups": [
+        {
+          "group_id": "g1",
+          "name": "Basic addition",
+          "leaf_kc_ids": [
+            "kc1"
+          ]
+        }
+      ],
+      "leaf_kcs": [
+        {
+          "kc_id": "kc1",
+          "group_id": "g1",
+          "name": "Basic addition",
+          "knowledge": "2 + 2 = 4",
+          "observable_claim": "Add two small integers.",
+          "source_refs": []
+        }
+      ],
+      "integrated_activities": []
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schema_version": "kc-quiz-quiz.v2",
+  "day": "day01",
+  "blueprint": {
+    "vi": {
+      "day": "day01",
+      "modules": [
+        {
+          "module_id": "g1",
+          "leaf_kc_ids": [
+            "kc1"
+          ],
+          "assessment_slot_ids": [
+            "s1"
+          ],
+          "initial_representative_slot_ids": [
+            "s1"
+          ]
+        }
+      ],
+      "assessment_slots": [
+        {
+          "slot_id": "s1",
+          "module_id": "g1",
+          "kc_id": "kc1",
+          "variant_question_ids": [
+            "q1",
+            "q2"
+          ]
+        }
+      ]
+    },
+    "en": {
+      "day": "day01",
+      "modules": [
+        {
+          "module_id": "g1",
+          "leaf_kc_ids": [
+            "kc1"
+          ],
+          "assessment_slot_ids": [
+            "s1"
+          ],
+          "initial_representative_slot_ids": [
+            "s1"
+          ]
+        }
+      ],
+      "assessment_slots": [
+        {
+          "slot_id": "s1",
+          "module_id": "g1",
+          "kc_id": "kc1",
+          "variant_question_ids": [
+            "q1",
+            "q2"
+          ]
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "vi": {
+      "schema_version": "quiz-bank.day.v2",
+      "day": "day01",
+      "language": "vi",
+      "questions": [
+        {
+          "question_id": "q1",
+          "question_version": 1,
+          "module_id": "g1",
+          "primary_kc_id": "kc1",
+          "contributing_kc_ids": [],
+          "assessment_slot_ids": [
+            "s1"
+          ],
+          "variant_family_id": "s1",
+          "role": "initial_check",
+          "cognitive_operation": "Apply",
+          "estimated_difficulty": "easy",
+          "grading_method": "objective_key",
+          "max_points": 1,
+          "interaction": {
+            "type": "single_select",
+            "prompt": "2 + 2 bằng bao nhiêu?",
+            "choices": [
+              {
+                "choice_id": "a",
+                "text": "4"
+              },
+              {
+                "choice_id": "b",
+                "text": "5"
+              }
+            ]
+          },
+          "answer_key_or_rubric": {
+            "correct_choice_id": "a"
+          },
+          "answer_explanation": "Cộng 2 với 2 được 4.",
+          "source_refs": []
+        },
+        {
+          "question_id": "q2",
+          "question_version": 1,
+          "module_id": "g1",
+          "primary_kc_id": "kc1",
+          "contributing_kc_ids": [],
+          "assessment_slot_ids": [
+            "s1"
+          ],
+          "variant_family_id": "s1",
+          "role": "reassessment",
+          "cognitive_operation": "Apply",
+          "estimated_difficulty": "easy",
+          "grading_method": "objective_key",
+          "max_points": 1,
+          "interaction": {
+            "type": "single_select",
+            "prompt": "3 + 1 bằng bao nhiêu?",
+            "choices": [
+              {
+                "choice_id": "a",
+                "text": "4"
+              },
+              {
+                "choice_id": "b",
+                "text": "5"
+              }
+            ]
+          },
+          "answer_key_or_rubric": {
+            "correct_choice_id": "a"
+          },
+          "answer_explanation": "Cộng 3 với 1 được 4.",
+          "source_refs": []
+        }
+      ]
+    },
+    "en": {
+      "schema_version": "quiz-bank.day.v2",
+      "day": "day01",
+      "language": "en",
+      "questions": [
+        {
+          "question_id": "q1",
+          "question_version": 1,
+          "module_id": "g1",
+          "primary_kc_id": "kc1",
+          "contributing_kc_ids": [],
+          "assessment_slot_ids": [
+            "s1"
+          ],
+          "variant_family_id": "s1",
+          "role": "initial_check",
+          "cognitive_operation": "Apply",
+          "estimated_difficulty": "easy",
+          "grading_method": "objective_key",
+          "max_points": 1,
+          "interaction": {
+            "type": "single_select",
+            "prompt": "What is 2 + 2?",
+            "choices": [
+              {
+                "choice_id": "a",
+                "text": "4"
+              },
+              {
+                "choice_id": "b",
+                "text": "5"
+              }
+            ]
+          },
+          "answer_key_or_rubric": {
+            "correct_choice_id": "a"
+          },
+          "answer_explanation": "Adding 2 and 2 gives 4.",
+          "source_refs": []
+        },
+        {
+          "question_id": "q2",
+          "question_version": 1,
+          "module_id": "g1",
+          "primary_kc_id": "kc1",
+          "contributing_kc_ids": [],
+          "assessment_slot_ids": [
+            "s1"
+          ],
+          "variant_family_id": "s1",
+          "role": "reassessment",
+          "cognitive_operation": "Apply",
+          "estimated_difficulty": "easy",
+          "grading_method": "objective_key",
+          "max_points": 1,
+          "interaction": {
+            "type": "single_select",
+            "prompt": "What is 3 + 1?",
+            "choices": [
+              {
+                "choice_id": "a",
+                "text": "4"
+              },
+              {
+                "choice_id": "b",
+                "text": "5"
+              }
+            ]
+          },
+          "answer_key_or_rubric": {
+            "correct_choice_id": "a"
+          },
+          "answer_explanation": "Adding 3 and 1 gives 4.",
+          "source_refs": []
+        }
+      ]
+    }
+  }
+}

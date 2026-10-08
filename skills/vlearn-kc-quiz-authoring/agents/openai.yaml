@@ -1,0 +1,4 @@
+interface:
+  display_name: "VLearn KC & Quiz Authoring"
+  short_description: "Soạn KC/Quiz VI–EN và kiểm ZIP hai file cho VLearn"
+  default_prompt: "Dùng $vlearn-kc-quiz-authoring để đọc nguồn, biên soạn KC/Quiz song ngữ và kiểm ZIP theo contract VLearn."

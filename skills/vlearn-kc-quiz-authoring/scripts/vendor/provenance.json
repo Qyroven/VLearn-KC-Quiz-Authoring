@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/vinuni-vlearn/vlearn-rebuild",
+  "commit": "b4648e97b20bc962e2fbaf2f2500304fd07e5fce",
+  "files": [
+    {
+      "path": "api/src/modules/content/service_kc_quiz_pair.py",
+      "sha256": "4541599fd97003c818b0c64809e53cb6f4cad71aa715bb9eca405948c7b433fb"
+    },
+    {
+      "path": "api/src/modules/content/service_kc_quiz_contract.py",
+      "sha256": "463fdb8f199159e2562b2367ecc6aba52a60a510a96fe645bc4be92cf76f2834"
+    },
+    {
+      "path": "api/src/modules/content/service_kc_quiz_contract_error.py",
+      "sha256": "ca63a65c79f3a13981d32c6ad46f0390f84e22eb182c117c72e3bdca1d65a2d1"
+    },
+    {
+      "path": "demo-authoring-bundle/kc-quiz-pair-v2/kc.json",
+      "sha256": "9fd0f6ccc9ed0ea890a99d07abe8a9232ba0292b3d2852dfcb8667ee96ff4179"
+    },
+    {
+      "path": "demo-authoring-bundle/kc-quiz-pair-v2/quiz.json",
+      "sha256": "5f0316fcf915a9f0ac9a6b4f04e94259a1c6082d3436b7095f6c950cb3ad7cb7"
+    }
+  ]
+}
