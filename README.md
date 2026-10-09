@@ -2,7 +2,9 @@
 
 Skill mới dành cho biên soạn học liệu import VLearn. Đầu ra một Day là ZIP gồm **`kc.json` + `quiz.json`**, mỗi file có VI/EN; Extraction, PDF và báo cáo ở ngoài ZIP. Không thay thế hoặc ghi đè skill `learning-authoring-pipeline` cũ.
 
-Rebuild gồm phục hồi nguồn, learning units nhỏ, quiz theo context đang học và review học thuật. Xem [audit bản cũ](docs/legacy-audit.md) và [thiết kế rebuild](docs/rebuild-design.md). Các instructions và context checker đã được triển khai; pilot học liệu Phase 2 thật và preview VLearn còn cần thực hiện.
+Rebuild gồm phục hồi nguồn, learning units nhỏ, quiz theo context đang học và review học thuật. Xem [audit bản cũ](docs/legacy-audit.md) và [thiết kế rebuild](docs/rebuild-design.md). Đã có instructions, context checker, workbench PDF recovery và checker records nguồn/coverage/review gắn revision. Xem [workflow bước 3–5](skills/vlearn-kc-quiz-authoring/references/evidence-workflow.md). Full-Day Phase 2 và preview VLearn còn cần thực hiện.
+
+[Nghiệm thu bước 3–5](docs/acceptance-audit.md): 52 regression tests pass; có trial nguồn thật ba trang, hai unit/KC và ba câu VI/EN với review độc lập, cùng ca phục hồi biểu đồ. Đây là nghiệm thu phạm vi nhỏ, không phải toàn bộ Day hay production.
 
 ## Dùng
 

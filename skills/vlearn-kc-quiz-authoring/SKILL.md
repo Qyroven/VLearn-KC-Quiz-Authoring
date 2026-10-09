@@ -27,6 +27,10 @@ Khi yêu cầu tạo/chọn quiz theo đoạn đang học, đọc [context.md](r
 
 Trước khi giao câu/bộ học liệu, dùng [academic-review.md](references/academic-review.md) để giải câu, kiểm nguồn/phạm vi/alternative/hint/rubric và VI–EN. Sửa lỗi tại stage gốc và kiểm lại phần phụ thuộc. Tự review không được ghi là independent approval.
 
+## Workbench bước 3–5
+
+Dùng [evidence-workflow.md](references/evidence-workflow.md) để chuẩn bị PDF có hash/render và Extraction pending (`source_workbench.py`), thực hiện recovery render/crop/OCR có artefact thật, rồi tạo/kiểm records nguồn–coverage–review gắn revision (`authoring_evidence.py`). Review thiếu, gap/finding mở hoặc đầu vào đã đổi phải hiện blocker. Record đầy đủ không đồng nghĩa nội dung đúng hoặc đã được independent approval.
+
 ## Kiểm và giao
 
 Chạy từ bất kỳ repo nội dung nào, thay `<skill>` bằng thư mục skill này:

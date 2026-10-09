@@ -39,4 +39,6 @@ Bank và context selection tách riêng: kho đầy đủ một Day được xu�
 - Behavioral: agent làm recovery và quiz theo các context đối lập trên nguồn được cung cấp, lưu quyết định và artefact thực tế. Không dùng test regex headings làm chứng minh chất lượng.
 - Pilot: một Day Phase 2 nguồn đã đối chiếu → đọc đầy đủ → units/KC → Quiz VI/EN → review → ZIP → preview VLearn. Sau đó đối chiếu các yêu cầu/context ít nhất: giữa bài, cuối bài và đoạn chưa học để phát hiện hỏi vượt phạm vi. Phạm vi/quota do nguồn và yêu cầu quyết định.
 
-Hiện rebuild instructions và context checker có thể kiểm local; **pilot Day thật, đánh giá độc lập và preview VLearn chưa hoàn thành trong đợt này**. Chưa thay skill cũ hoàn toàn hoặc tuyên bố bộ Phase 2 đã sẵn sàng.
+Đã triển khai source workbench và review evidence checker, cùng context checker hiện có. Trial thật gồm reference Interviews ba trang, hai unit/KC, ba câu VI/EN và context đối lập; checker độc lập phát hiện/sửa lệch rubric, controller đối chiếu evidence. Một slice First Principles kiểm phục hồi quan hệ biểu đồ và qualifier. Chi tiết ở [acceptance-audit.md](acceptance-audit.md).
+
+**Pilot toàn Day thật, review toàn Day và preview VLearn chưa hoàn thành**. Trial học phần nhỏ không chứng minh chất lượng trên mọi nguồn hoặc runtime chấm rubric. Chưa thay skill cũ hoàn toàn hoặc tuyên bố bộ Phase 2 đã sẵn sàng.

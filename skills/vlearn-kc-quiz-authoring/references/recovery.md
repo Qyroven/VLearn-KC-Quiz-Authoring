@@ -1,5 +1,7 @@
 # Phục hồi nguồn và quản lý ảnh hưởng
 
+Có helper thực thi render/crop/OCR và provenance tại [evidence-workflow.md](evidence-workflow.md). Khi dùng evidence checker, đưa records bên dưới vào `review.json.source_recovery`; các issue mở phải đồng bộ với context.
+
 ## Xử lý theo lỗi thật
 
 | Lỗi | Hành động phù hợp | Kiểm lại |

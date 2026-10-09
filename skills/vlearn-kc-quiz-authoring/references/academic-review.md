@@ -1,5 +1,7 @@
 # Review chất lượng và sửa vòng lặp
 
+CLI tạo records pending và kiểm stale/missing evidence nằm ở [evidence-workflow.md](evidence-workflow.md). Helper kiểm ghi nhận và liên kết, không tự đọc/đánh giá chất lượng lập luận.
+
 Review dựa trên nội dung thực tế. Lưu findings theo ID và nguồn, không thay bằng score tổng hoặc checklist đã tick.
 
 | Mức kiểm | Câu hỏi cần trả lời | Khi fail |
