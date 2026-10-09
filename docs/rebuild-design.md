@@ -41,4 +41,6 @@ Bank và context selection tách riêng: kho đầy đủ một Day được xu�
 
 Đã triển khai source workbench và review evidence checker, cùng context checker hiện có. Trial thật gồm reference Interviews ba trang, hai unit/KC, ba câu VI/EN và context đối lập; checker độc lập phát hiện/sửa lệch rubric, controller đối chiếu evidence. Một slice First Principles kiểm phục hồi quan hệ biểu đồ và qualifier. Chi tiết ở [acceptance-audit.md](acceptance-audit.md).
 
-**Pilot toàn Day thật, review toàn Day và preview VLearn chưa hoàn thành**. Trial học phần nhỏ không chứng minh chất lượng trên mọi nguồn hoặc runtime chấm rubric. Chưa thay skill cũ hoàn toàn hoặc tuyên bố bộ Phase 2 đã sẵn sàng.
+Pilot bước 6 đã mở rộng tới toàn bộ hai PDF của Day16 Track1: 66 trang, 25 KC, 24 learning unit, 28 câu VI/EN và review độc lập. Sáu teaching-context case kiểm phần chưa học, phần đã học trong cùng unit, câu tích hợp và cuối Day đều qua kiểm; checker thử thêm source-gap propagation. Xem [nghiệm thu bước 6](step6-acceptance.md).
+
+**Chưa nghiệm thu toàn Day hoặc import production.** Năm video và lab chưa được đọc; preview ZIP cuối trên vlearn.dev bị chặn do khóa K04-L34-P2-T1 chưa được gắn cohort/track nguồn, nên source-day mapping chưa xác minh. Manual rubric trials không chứng minh runtime AI grader hay hiệu quả học tập. Chưa thay skill cũ hoàn toàn hoặc tuyên bố bộ Phase 2 đã sẵn sàng.
